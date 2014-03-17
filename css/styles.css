@@ -1,0 +1,132 @@
+/* Your Website Styles */
+
+
+body{
+
+background: #001930; /* Old browsers */
+background: -moz-linear-gradient(top,  #001930 0%, #173a59 27%, #122c47 28%, #24537a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#001930), color-stop(27%,#173a59), color-stop(28%,#122c47), color-stop(100%,#24537a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #001930 0%,#173a59 27%,#122c47 28%,#24537a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #001930 0%,#173a59 27%,#122c47 28%,#24537a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #001930 0%,#173a59 27%,#122c47 28%,#24537a 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #001930 0%,#173a59 27%,#122c47 28%,#24537a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001930', endColorstr='#24537a',GradientType=0 ); /* IE6-9 */
+
+}
+
+p{
+
+  position: absolute;
+  font-family: 'Arizonia', cursive;
+  font-size: 1.25em;
+  padding-top: 10px;
+  padding-left: 10px;
+  z-index: 3;
+  color: white;
+  background-color: #173a59;
+  width: 200px;
+  height: 40px;
+  line-height: -35px;
+
+}
+
+.square{
+
+position: absolute;
+margin: 744px 0px 0px -288px;
+z-index: 2;
+max-width: 25% ;
+   
+background: #001930;
+-webkit-transform-origin: 0px 50%;
+-moz-transform-origin: 0px 50%;
+-o-transform-origin: 0px 50%;
+-ms-transform-origin: 0px 50%;
+transform-origin: 0px 50%;
+-webkit-transform: rotate(300deg) rotateX(60deg) rotateY(0deg) rotateZ(0deg) scale(2) scale3d(2, 1, 1) skew(8deg, 15deg) translate3d(0px, 0px, 0px);
+-moz-transform: rotate(300deg) rotateX(60deg) rotateY(0deg) rotateZ(0deg) scale(2) scale3d(2, 1, 1) skew(8deg, 15deg) translate3d(0px, 0px, 0px);
+-o-transform: rotate(300deg) rotateX(60deg) rotateY(0deg) rotateZ(0deg) scale(2) scale3d(2, 1, 1) skew(8deg, 15deg) translate3d(0px, 0px, 0px);
+-ms-transform: rotate(300deg) rotateX(60deg) rotateY(0deg) rotateZ(0deg) scale(2) scale3d(2, 1, 1) skew(8deg, 15deg) translate3d(0px, 0px, 0px);
+transform: rotate(300deg) rotateX(60deg) rotateY(0deg) rotateZ(0deg) scale(2) scale3d(2, 1, 1) skew(8deg, 15deg) translate3d(0px, 0px, 0px);
+
+
+
+}
+
+.gallery .controls img:hover {
+  
+  z-index: 4;
+  padding-bottom: 25px;
+  transition: all 1.5s;
+
+}
+
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+
+  position: relative;
+
+}
+.gallery .item{
+
+  z-index: 0;
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+-webkit-box-shadow: inset 0px 4px 48px 8px rgba(0,0,0,0.65);
+-moz-box-shadow: inset 0px 4px 48px 8px rgba(0,0,0,0.65);
+box-shadow: inset 0px 4px 48px 8px rgba(0,0,0,0.65);
+  background-image: url(http://th01.deviantart.net/fs71/PRE/i/2011/107/3/5/wood_texture___15_by_agf81-d3e6w3j.jpg);
+
+}
+.gallery .controls {
+
+  position: absolute;
+  bottom: -121px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.gallery .controls img {
+
+transition: all 2s;
+z-index: 1;
+  -webkit-box-reflect: below 0
+     -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white)); 
+
+}
+
+.gallery .control-button {
+  
+  z-index: 1;
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+
+}
+
+figure  img{
+
+-webkit-box-shadow: 12px 20px 34px 2px rgba(0,0,0,0.6);
+-moz-box-shadow: 12px 20px 34px 2px rgba(0,0,0,0.6);
+box-shadow: 12px 20px 34px 2px rgba(0,0,0,0.6);
+margin-top: 1.875em;
+width: 31.250em;
+height: 20.675em;
+
+}
+
+.control-button img{
+
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+
+}
